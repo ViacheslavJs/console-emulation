@@ -1,0 +1,184 @@
+								
+html {
+  background: #303030;
+  font-family: "Arial", "Times New Roman", sans-serif;
+  font-size: 18px;
+  color: #ffcc00;
+}	
+
+section {
+  position: relative;
+  max-width: 970px;
+  min-height: calc(100%);
+  margin: auto;  
+  overflow: auto; 
+}
+
+h1 {
+    text-align: center;    
+}		
+					 
+#res-out { 
+  display: none;
+  margin-left: 2px; 
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffcc00;
+  z-index: 2;   
+}
+					 					 
+.icon-return {
+  display: block;
+  margin-top: 22px; 
+  font-size: 18px;
+  font-weight: bold; 
+  color: lime; 
+}
+									 
+.dubble, 
+.comment {
+  color: silver;
+}
+				 
+b {
+    color: #ffeda6;
+}
+
+.color-function {
+   color: #8cadff;
+}
+				 
+.color-method {  
+    color: #5877c6;
+}	
+
+#btn {
+  display: none;
+}
+
+.box-console {
+  display: block;
+  position: relative;
+  top: -7px;
+  margin-bottom: 8px; 
+  height: 62px;
+  border: 1px solid #303030;
+}
+	
+.button-label {
+  display: inline;
+  padding: 2px; 
+}	
+					 
+.button-active {
+  display: block;
+  position: absolute;
+  width: 95px;
+  top: 0;  
+  bottom: 0;
+  right: 0; 
+  margin: 12px 0;  
+  border: 3px solid gray; 
+  border-radius: 5px; 
+  color: lightgreen; 
+  background-color: #4b4b4b; 
+  font-size: 18px;  
+}		
+
+.button-active:hover {
+  background-color: #4f6146;
+}
+
+.button-active:active {
+  /*box-shadow: 0 0 15px lightgreen;*/
+  border: 3px solid green; 
+}
+	
+.button-inactive {
+  display: block; 
+  position: absolute; 
+  width: 95px; 
+  top: 0; 
+  bottom: 0;
+  right: 0; 
+  margin: 12px 0;
+  font-size: 18px; 
+  border: 3px solid #3a3a3a; 
+  border-radius: 5px; 
+  color: gray; 
+  background-color: #3a3a3a; 
+  outline: none; 
+  z-index: 1; 
+  /*opacity: 0.3;*/
+}	
+
+.button-inactive:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 365px) {
+  
+  .button-inactive {
+    opacity: 0.2;
+  }
+  
+}
+			 
+.form-control {
+  font-size: 18px;
+  min-width: 20px;
+  height: 20px;
+  padding: 4px;
+  border: 2px solid lightgreen;
+  border-radius: 35%;
+  /*border-left: none;*/
+  border-top: none;
+  border-bottom: none;
+  /*border-right: none;*/
+  text-align: center;
+  background: #303030; 
+  /*background: lime;*/
+  color: #ffcc00;
+  outline: none;
+  -moz-appearance: textfield;
+		
+
+}
+
+#footnote {
+  display: none;
+  color: lime;
+}
+
+#input-1 {
+  border-right: none;
+}
+
+#input-2 {
+  border-left: none;
+}
+
+pre {
+  font-size: 0; 
+  border: 1px solid silver; 
+  padding: 3px;
+  overflow-x: auto; 
+}
+
+code {
+  font-size: 16px;
+  color: white;
+}
+
+input {
+  margin-left: 5px;
+  width: 0; /* TODO - добавил что-бы инпут не сжимался */
+    -moz-appearance: textfield; /* TODO - убирает стрелочки "вверх-вниз" в инпуте */ 
+}
+  
+hr {
+  border: none;
+  border-top: 1px solid #888888;
+  margin-top: 10px; 
+}
+									 
